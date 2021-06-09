@@ -1,17 +1,17 @@
-class Text {
-    constructor(minLength = 0, maxLength = 0){
+export class Text {
+    constructor({ minLength = 0, maxLength = null }) {
         this.minLength = minLength;
         this.maxLength = maxLength;
         this.response = {};
     }
     isValid(text) {
-        if(this.minLength){
-            if(text.length < this.minLength){
+        if (this.minLength) {
+            if (text.length < this.minLength) {
                 this.response.minLength = false;
             }
         }
-        if(this.maxLength){
-            if(text.length > this.maxLength){
+        if (this.maxLength !== null) {
+            if (text.length > this.maxLength) {
                 this.response.maxLength = false;
             }
         }

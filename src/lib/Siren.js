@@ -1,4 +1,4 @@
-class Siren {
+export class Siren {
     isValid(siren) {
         siren = siren.replace(/\s/g,"");
         if (siren.length > 8 && Siren.isValidSiren(siren)) {

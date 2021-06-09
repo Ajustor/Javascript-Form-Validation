@@ -1,4 +1,4 @@
-class Siret {
+export class Siret {
     isValid(siret) {
         siret = siret.replace(/\s/g,"");
         if (siret.length > 13 && Siret.isValidSiret(siret)) {

@@ -1,6 +1,6 @@
 export class Color {
     isValid(testingColor) {
-        const { style } = new Option();
+        let style = new Option().style;
         style.color = testingColor;
         return !!style.color;
     }

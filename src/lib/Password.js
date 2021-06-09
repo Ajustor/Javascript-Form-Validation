@@ -7,11 +7,8 @@ const regexs = {
 
 export class Password {
   constructor(options = {}) {
-    try {
-      this.checkOptions(options)
-    } catch (error) {
-      throw error
-    }
+    this.checkOptions(options)
+
     this.uppercase = options.hasOwnProperty("uppercase") ? options.uppercase : true;
     this.lowercase = options.hasOwnProperty("lowercase") ? options.lowercase : true;
     this.numeric = options.hasOwnProperty("numeric") ? options.numeric : true;

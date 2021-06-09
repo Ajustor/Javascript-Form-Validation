@@ -1,21 +1,9 @@
-import { Color } from './lib/Color'
-import { DateTime } from './lib/DateTime'
-import { Email } from './lib/Email'
-import { Iban } from './lib/Iban'
-import { Password } from './lib/Password'
-import { Range } from './lib/Range'
-import { Siren } from './lib/Siren'
-import { Siret } from './lib/Siret'
-import { Text } from './lib/Text'
-
-export {
-  Color,
-  DateTime,
-  Email,
-  Iban,
-  Password,
-  Range,
-  Siren,
-  Siret,
-  Text,
-}
+export { Color } from './lib/Color'
+export { DateTime } from './lib/DateTime'
+export { Email } from './lib/Email'
+export { Iban } from './lib/Iban'
+export { Password } from './lib/Password'
+export { Range } from './lib/Range'
+export { Siren } from './lib/Siren'
+export { Siret } from './lib/Siret'
+export { Text } from './lib/Text'

@@ -1,6 +1,6 @@
 # Javascript-Form-Validation
 
-[![Codacy Badge](https://app.codacy.com/events/github/0b997a4b9abb4dd488c8a3940db6867e)](https://app.codacy.com/gh/Ajustor/Javascript-Form-Validation/dashboard?branch=main)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0b997a4b9abb4dd488c8a3940db6867e)](https://app.codacy.com/gh/Ajustor/Javascript-Form-Validation?utm_source=github.com&utm_medium=referral&utm_content=Ajustor/Javascript-Form-Validation&utm_campaign=Badge_Grade_Settings)
 
 Javascript Library providing form validation helpers
 
